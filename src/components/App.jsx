@@ -26,7 +26,7 @@ export const App = () => {
         return (feedbackState.good / countTotalFeedback() * 100).toFixed(0);
     }
     const options = Object.keys(feedbackState);
-        return<>
+        return <>
         <Section title="Please leave feedback">
                 <FeedbackOptions
             options={options}
